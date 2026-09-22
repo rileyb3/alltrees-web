@@ -3,7 +3,7 @@
     "apps": [],
     "details": [
       {
-        "appIDs": ["REPLACE_WITH_APPLE_TEAM_ID.com.rilesy.AllTrees"],
+        "appIDs": ["HF287CB938.com.rilesy.AllTrees"],
         "components": [
           { "/": "/u/*", "comment": "user profiles" },
           { "/": "/t/*", "comment": "individual trees" },
