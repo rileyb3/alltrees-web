@@ -5,9 +5,8 @@
       {
         "appIDs": ["HF287CB938.com.rilesy.AllTrees"],
         "components": [
-          { "/": "/u/*", "comment": "user profiles" },
-          { "/": "/t/*", "comment": "individual trees" },
-          { "/": "/invite/*", "comment": "friend invites" }
+          { "/": "/user/*", "comment": "user profiles" },
+          { "/": "/tree/*", "comment": "individual trees" }
         ]
       }
     ]
