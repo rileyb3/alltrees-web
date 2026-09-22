@@ -1,0 +1,15 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appIDs": ["REPLACE_WITH_APPLE_TEAM_ID.com.rilesy.AllTrees"],
+        "components": [
+          { "/": "/u/*", "comment": "user profiles" },
+          { "/": "/t/*", "comment": "individual trees" },
+          { "/": "/invite/*", "comment": "friend invites" }
+        ]
+      }
+    ]
+  }
+}

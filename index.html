@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AllTrees — Map and climb the best trees near you</title>
+
+  <!-- iOS Safari smart banner: shows an "Open in App Store" strip -->
+  <meta name="apple-itunes-app" content="app-id=6788578674" />
+
+  <!-- Open Graph: how links unfurl in iMessage, WhatsApp, etc. -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="AllTrees" />
+  <meta property="og:title" content="AllTrees — find and climb the best trees near you" />
+  <meta property="og:description" content="Discover, map, and log the trees you climb. Build your life list and share your climbs." />
+  <meta property="og:url" content="https://alltrees.app" />
+  <meta property="og:image" content="https://alltrees.app/og.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="AllTrees — find and climb the best trees near you" />
+  <meta name="twitter:description" content="Discover, map, and log the trees you climb." />
+  <meta name="twitter:image" content="https://alltrees.app/og.png" />
+
+  <style>
+    :root { --bg:#0f2910; --card:#16351b; --accent:#89D729; --text:#ffffff; --muted:rgba(255,255,255,0.6); }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html, body { background: var(--bg); color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    body { min-height: 100vh; display: flex; flex-direction: column; align-items: center;
+      justify-content: center; text-align: center; padding: 32px 24px; }
+    .logo { width: 96px; height: auto; margin-bottom: 24px; }
+    h1 { font-size: clamp(32px, 8vw, 56px); font-weight: 900; letter-spacing: 0.5px; }
+    h1 .accent { color: var(--accent); }
+    .tagline { font-size: clamp(16px, 4vw, 20px); color: var(--muted); margin-top: 12px; max-width: 30ch; line-height: 1.5; }
+    .cta { margin-top: 32px; display: inline-flex; align-items: center; gap: 10px;
+      background: var(--accent); color: #0f2910; font-size: 17px; font-weight: 800;
+      padding: 15px 28px; border-radius: 999px; text-decoration: none; }
+    .cta:active { transform: scale(0.98); }
+    .footer { margin-top: 48px; font-size: 13px; color: rgba(255,255,255,0.4); }
+    .footer a { color: rgba(255,255,255,0.55); }
+  </style>
+</head>
+<body>
+  <svg class="logo" viewBox="0 0 315 425" xmlns="http://www.w3.org/2000/svg" aria-label="AllTrees logo">
+    <circle cx="165.115" cy="158.113" r="71" fill="#89D729" />
+    <path fill="#0f2910" d="M166.205 267.956L164.948 267.613C160.619 266.432 157.615 262.5 157.615 258.013V222.613L157.205 210.696C157.146 209.002 156.658 207.35 155.785 205.896L153.623 202.293C152.958 201.183 152.083 200.214 151.048 199.438L136.046 188.186C135.121 187.492 134.462 186.5 134.182 185.378L133.954 184.468C133.474 182.546 134.487 180.564 136.326 179.828C137.456 179.377 138.73 179.469 139.783 180.078L156.665 189.852C156.96 190.023 157.295 190.113 157.636 190.113C158.722 190.113 159.596 189.22 159.573 188.134L158.684 146.814C158.641 144.814 159.599 142.924 161.238 141.777L161.772 141.403C162.936 140.588 164.41 140.351 165.771 140.76C167.505 141.28 168.779 142.76 169.035 144.553L170.615 155.613L171.994 175.834C172.062 176.835 172.895 177.613 173.898 177.613C174.361 177.613 174.807 177.445 175.155 177.141L182.615 170.613L189.36 165.555C190.151 164.961 191.174 164.772 192.125 165.044C193.334 165.39 194.223 166.419 194.389 167.665L194.698 169.986C194.963 171.967 194.333 173.964 192.979 175.435L174.902 195.084C173.117 197.024 172.17 199.591 172.268 202.225L174.46 261.406C174.555 263.968 173.143 266.349 170.85 267.496C169.411 268.215 167.757 268.379 166.205 267.956Z" />
+    <path fill="#89D729" d="M295.615 217.113C302.797 201.308 311.866 185.449 313.368 166.998C313.413 166.58 313.456 166.158 313.497 165.731C315.787 145.349 314.167 123.238 306.8 103.131C298.15 77.4156 283.593 51.2274 260.975 32.5457C234.075 8.32799 194.569 -0.194431 160.782 0.0332222C126.006 -0.735405 89.8113 11.8751 62.4826 33.5719C39.9401 51.7316 23.7203 73.1252 12.2917 99.8653C3.80951 119.732 -0.827063 144.399 0.122042 166.083C0.154287 167.483 0.197981 168.877 0.255619 170.277C0.540529 188.252 5.89063 208.578 12.0156 223.976C21.3179 248.335 36.3096 265.16 47.0368 281.883C60.9605 302.652 75.2569 321.865 89.8749 341.313L89.4942 340.76C105.647 363.867 121.945 386.879 138.386 409.796C151.533 430.404 185.101 428.451 195.633 407.771C210.246 380.932 224.701 353.959 238.968 326.905C249.902 306.157 261.65 285.586 273.005 264.746C281.212 249.288 290.214 233.851 295.615 217.113C287.789 232.724 276.807 246.516 266.593 260.665C252.551 279.691 238.284 298.624 224.763 318.321C207.447 343.533 190.291 368.874 173.326 394.292C170.409 398.263 164.23 397.052 162.971 393.575C148.371 369.443 133.626 345.407 118.737 321.466L118.356 320.912C105.101 301.161 91.4334 280.976 79.1941 261.343C67.4515 242.214 54.6306 225.984 49.2152 210.25C43.6746 195.153 40.6709 183.432 40.2217 168.631C40.1746 167.487 40.1374 166.327 40.1088 165.142C39.5147 146.88 42.2618 131.468 48.9391 114.36C56.3223 95.5166 70.2742 75.9056 85.7483 62.6539C107.164 44.4213 133.103 33.6988 161.449 32.1926C192.61 30.253 221.694 33.9781 246.256 51.6801C266.323 65.253 281.252 85.6675 292.431 109.095C301.16 126.363 305.177 145.392 305.734 165.494C305.749 165.893 305.763 166.288 305.774 166.68C306.798 183.625 300.404 200.231 295.615 217.113Z" />
+  </svg>
+
+  <h1>All<span class="accent">Trees</span></h1>
+  <p class="tagline">Find, map, and climb the best trees near you. Build your life list and share your climbs.</p>
+
+  <a class="cta" href="https://apps.apple.com/app/alltrees/id6788578674">Download on the App Store</a>
+
+  <div class="footer">
+    &copy; <span id="year"></span> AllTrees &middot; <a href="mailto:hello@alltrees.app">Contact</a>
+  </div>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
